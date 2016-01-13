@@ -12,6 +12,7 @@
 
 @property (nonatomic,strong) TestClass * testClass;
 
+-(void) sayHi;
 @end
 
 @implementation ViewController
@@ -35,7 +36,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+-(void) sayHi
+{
+    NSLog(@"Hi!");
+}
 
 
 
