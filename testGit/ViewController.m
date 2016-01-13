@@ -25,6 +25,7 @@
     self.sum = a + b;
     NSLog(@"The result is : %d",self.sum);
     
+    
     [self sayHello];
     
 }
@@ -33,6 +34,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 -(void) sayHello
 {
