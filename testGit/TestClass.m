@@ -1,17 +1,13 @@
 //
-//  ViewController.h
+//  TestClass.m
 //  testGit
 //
 //  Created by 董力云 on 16/1/13.
 //  Copyright © 2016年 董力云. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "TestClass.h"
 
-@interface ViewController : UIViewController
-
-@property (nonatomic) int sum;
+@implementation TestClass
 
 @end
-
